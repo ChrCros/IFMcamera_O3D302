@@ -1,4 +1,4 @@
-# ![O3D302 (1)](https://user-images.githubusercontent.com/120630734/207893369-c059ca9f-2aec-485a-b9b4-2f1d04dbd1e4.jpg) 
+# ![O3D302n](https://user-images.githubusercontent.com/120630734/208065092-477211fc-74c7-41db-b397-2b6060214108.jpg)
 
 
 # Guida pratica all'installazione e configurazione di un ambiente virtuale per il controllo del sensore 3D - ifm O3D302
@@ -32,6 +32,7 @@ https://www.ifm.com/it/it/product/O3D302
 | Python (v3.8) | <https://www.python.org/> |
 | git | <https://git-scm.com/> |
 | Microsoft C++ Build Tools | <https://visualstudio.microsoft.com/visual-cpp-build-tools/> |
+| ifm3d | <https://github.com/ifm/ifm3d> |
 
 ## N.B.#1:
 ### Affinchè sia garantito un corretto funzionameto di Python bisogna verificare che le versioni differenti alla v3.8 vengano disinstallate e che durante l'installazione della v3.8 sia spuntata la voce "*Add Python 3.8 to PATH*"
@@ -103,8 +104,11 @@ pip uninstall nome_pacchetto
 # Python v3.8 should be installed
 pip install ifm3dpy
 
-WARNING: You are using pip version 19.2.3, however version 22.3.1 is available.
-You should consider upgrading via the 'python -m pip install --upgrade pip' command.
+#L'installazione di una versione più recente del gestore di pacchetti pip può essere eseguita facilmente eseguendo il comando seguente nel prompt dei comandi di Python.
+python -m pip install --upgrade pip
+
+# Verifica della libreria pip installata
+pip --version
 ```
 
 ### Installazione Build tools (git for Windows)
@@ -131,14 +135,18 @@ pip freeze > requirements.txt
 ```sh
 # Nella directory superiore (di ifm3d)
 pip install -r requirements.txt
-### Installazione di requisiti seguendo un percorso specifico
+
+## Installazione di requisiti seguendo un percorso specifico
 pip install -r examples/python/viewer/requirements.txt
+
+### eseguircuzione del file setup.py nella directory corrente (che di solito caricherà un file requirements.txt).
 pip install .
 ```
 
 ```sh
 # *pip list* emette tutti i pacchetti installati, inclusi quelli modificabili.
 python -m pip list
+
 py -m pip list --outdated --format columns
 ```
 
@@ -152,5 +160,6 @@ python nome_programma
 ## Risoluzione dei problemi
 <https://docs.conda.io/en/latest/miniconda.html>
 
-windows environment variables
-
+##Modifiche e scrittura markdown
+<https://minerva.ic.cnr.it/pluginfile.php/1490/mod_resource/content/1/guida-commommark.pdf>
+<https://riptutorial.com/Download/markdown-it.pdf>
