@@ -160,6 +160,7 @@ python nome_programma
 ## Risoluzione dei problemi
 <https://docs.conda.io/en/latest/miniconda.html>
 
-##Modifiche e scrittura markdown
+## Modifiche e scrittura markdown
 <https://minerva.ic.cnr.it/pluginfile.php/1490/mod_resource/content/1/guida-commommark.pdf>
+
 <https://riptutorial.com/Download/markdown-it.pdf>
