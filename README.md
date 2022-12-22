@@ -121,6 +121,9 @@ cd ifm3d
 git clone https://github.com/ifm/ifm3d.git --branch v1.0.0
 ```
 
+#### (module) argparse
+
+
 ### Requirements files
 > Note: Il modo più semplice per rendere il nostro lavoro riproducibile da altri è includere un file dei requisiti nella directory principale del nostro progetto (directory superiore). Per fare ciò, eseguiremo il comando *pip freeze*, che elenca i pacchetti di terze parti installati, insieme ai loro numeri di versione, potendo così generare un file *requirements.txt*
 ```sh
@@ -169,7 +172,6 @@ Pannello di controllo --> Tutti gli elementi del pannello di controllo --> Centr
 ```sh
 #Per rilevare l'immagine occorre eseguire *ifmVisionAssistant.exe* e dare un segnale di trig alla visione 
 python ifm3dpy_viewer.py --pcic-port 50010 --image distance --ip 192.168.10.80
-
 ```
 
 ## Risoluzione dei problemi
