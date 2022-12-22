@@ -157,7 +157,7 @@ python nome_programma
 ```
 ## Aprire una finestra e visualizzre l'immaggine rilevata dalla visione
 ```sh
-#Per rilevare l'immagine occorre eseguire *] ifmVisionAssistant.exe ** e dare un segnale di trig alla visione 
+#Per rilevare l'immagine occorre eseguire *ifmVisionAssistant.exe* e dare un segnale di trig alla visione 
 python ifm3dpy_viewer.py --pcic-port 50010 --image distance --ip 192.168.10.80
 ```
 
