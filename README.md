@@ -150,12 +150,16 @@ python -m pip list
 py -m pip list --outdated --format columns
 ```
 
-### Esecuzione programma Python
+# Esecuzione programma Python
 > Note: Scrittura per lanciare un programma con estensione .py
 ```sh
 python nome_programma
 ```
-
+## Aprire una finestra e visualizzre l'immaggine rilevata dalla visione
+```sh
+#Per rilevare l'immagine occorre eseguire *ifmVisionAssistant.exe* e dare un segnale di trig alla visione 
+python ifm3dpy_viewer.py --pcic-port 50010 --image distance --ip 192.168.10.80
+```
 
 ## Risoluzione dei problemi
 <https://docs.conda.io/en/latest/miniconda.html>
