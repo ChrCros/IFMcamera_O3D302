@@ -159,6 +159,12 @@ python nome_programma
 ```sh
 #Per rilevare l'immagine occorre eseguire *ifmVisionAssistant.exe* e dare un segnale di trig alla visione 
 python ifm3dpy_viewer.py --pcic-port 50010 --image distance --ip 192.168.10.80
+Per connettersi alla visione bisogna cambiare indirizzo IP del PC (Windows 7):
+Pannello di controllo --> Tutti gli elementi del pannello di controllo --> Centro connessione di rete e condivisione --> Connessione alla rete locale (LAN)
+--> Proprietà --> Protocollo Internet versione 4 (TCP/IPv4) doppio clic --> Utilizza il seguente indirizzo IP 
+|Indirizzo IP | 192.168.10.155 |
+|Subnet mask | 255.255.255.0 |
+Per ricollegarsi alla rete spuntare la voce "Ottieni automaticamente un indirizzo IP"
 ```
 
 ## Risoluzione dei problemi
