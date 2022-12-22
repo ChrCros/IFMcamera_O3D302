@@ -154,11 +154,24 @@ py -m pip list --outdated --format columns
 ```
 
 # Esecuzione programma Python
-> Note: Scrittura per lanciare un programma con estensione .py
+## Abilitare esecuzione script Powershell
+### Abilitare esecuzione script Powershell
+```sh
+# Controllare il parametro prima di modificarlo utilizzando il comando:
+Get-ExecutionPolicy
+```
+### Abilitare esecuzione script Powershell eseguire tutti gli script
+```sh
+# Eseguire qualsiasi tipo di script si dovrà digitare il comando:
+Set-ExecutionPolicy Unrestricted
+```
+
+## Lanciare un programma con estensione .py
 ```sh
 python nome_programma
+
 ```
-## Aprire una finestra e visualizzre l'immaggine rilevata dalla visione
+### Aprire una finestra e visualizzre l'immaggine rilevata dalla visione
 > Note: Per connettersi alla visione bisogna cambiare indirizzo IP del PC (Windows 7):
 Pannello di controllo --> Tutti gli elementi del pannello di controllo --> Centro connessione di rete e condivisione --> Connessione alla rete locale (LAN)
 --> Proprietà --> Protocollo Internet versione 4 (TCP/IPv4) doppio clic --> Utilizza il seguente indirizzo IP 
