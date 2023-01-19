@@ -36,6 +36,9 @@ https://www.ifm.com/it/it/product/O3D302
 
 ## N.B.#1:
 ### Affinchè sia garantito un corretto funzionameto di Python bisogna verificare che le versioni differenti alla v3.8 vengano disinstallate e che durante l'installazione della v3.8 sia spuntata la voce "*Add Python 3.8 to PATH*"
+```sh
+python --version
+```
 ![Python Install](https://user-images.githubusercontent.com/120630734/207897346-f84aa3c4-6031-49da-8d99-378e6035fe47.JPG)
 
 ## N.B.#2:
